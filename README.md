@@ -34,10 +34,6 @@ several services with **no account, no ads and no tracking**.
 For a permanent install, sign the zip via addons.mozilla.org (unlisted is fine). On first run, press
 **Grant access** on the Home page (Firefox makes host permissions opt-in).
 
-## Configure
-Edit `lib/config.js`: set `DONATE_URL` to your real donation page (it currently points at your website),
-`WEBSITE`, `GITHUB`. Default instance lists live there too.
-
 ## Layout
 ```
 manifest.json  background.js           routing, context menus, omnibox
