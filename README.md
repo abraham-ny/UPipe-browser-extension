@@ -1,4 +1,4 @@
-# UPipe — NewPipe for the web
+# UPipe - NewPipe for the web
 
 A Manifest V3 browser extension (Chromium + Firefox) that browses, plays and downloads media from
 several services with **no account, no ads and no tracking**.
@@ -14,23 +14,23 @@ several services with **no account, no ads and no tracking**.
 \* via the community Return-YouTube-Dislike API (can be switched off).
 
 ## Features
-- **Audio player page** – clicking ▶ on any card in Home/Search opens the player with the rest of the list queued.
+- **Audio player page** - clicking ▶ on any card in Home/Search opens the player with the rest of the list queued.
   Persistent queue (drag to reorder, save as playlist), shuffle/repeat, speed, sleep timer, Media Session
   (media keys / lock-screen controls), keyboard shortcuts, automatic stream refresh when a URL expires.
-- **Phantom theme** – the whole UI re-tints itself per service (YouTube red, SoundCloud orange, Bandcamp ocean,
+- **Phantom theme** - the whole UI re-tints itself per service (YouTube red, SoundCloud orange, Bandcamp ocean,
   PeerTube amber, CCC green). Themes: Dark, Light, **True black**, System. Optional custom accent + glow strength.
 - **Home** – hero, service tiles, paste-a-link bar and a mini dashboard (local activity, weather, top songs,
   markets, tech news, live service status) using free keyless APIs, plus **Donate** / **Website** / GitHub buttons
   and a trending feed for the active service.
-- **Library (local only)** – favorites, history, playlists, subscriptions, download list; JSON backup/restore.
+- **Library (local only)** - favorites, history, playlists, subscriptions, download list; JSON backup/restore.
 - **Settings** – appearance, services & instances, player, downloads, dashboard widgets, privacy & data, shortcuts.
 - Toolbar popup, context-menu entries on supported sites, address-bar search (`up <query or link>`),
   shortcuts `Alt+Shift+U` (open UPipe) and `Alt+Shift+P` (player).
 
 ## Install
-**Chrome / Edge / Brave / Opera / Vivaldi** — `chrome://extensions` → enable *Developer mode* → *Load unpacked* → select this folder.
+**Chrome / Edge / Brave / Opera / Vivaldi** - `chrome://extensions` → enable *Developer mode* → *Load unpacked* → select this folder.
 
-**Firefox (128+)** — `about:debugging#/runtime/this-firefox` → *Load Temporary Add-on…* → pick `manifest.json`.
+**Firefox (128+)** - `about:debugging#/runtime/this-firefox` → *Load Temporary Add-on…* → pick `manifest.json`.
 For a permanent install, sign the zip via addons.mozilla.org (unlisted is fine). On first run, press
 **Grant access** on the Home page (Firefox makes host permissions opt-in).
 
