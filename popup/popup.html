@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UPipe</title>
+  <link rel="stylesheet" href="../styles/base.css">
+  <style>
+    html, body { width: 340px; min-height: 0; height: auto; }
+    body { padding: 14px; display: flex; flex-direction: column; gap: 12px; background-attachment: scroll; }
+    .head { display: flex; align-items: center; gap: 10px; } .head .logo { width: 34px; height: 34px; margin: 0; border-radius: 10px; cursor: default; } .head .logo svg { width: 18px; height: 18px; }
+    .head b { font-size: 16px; } .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .go { display: flex; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 0 6px 0 14px; } .go:focus-within { border-color: var(--accent); }
+    .go input { flex: 1; border: 0; background: transparent; outline: 0; padding: 10px 6px; min-width: 0; }
+    .btns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; } .btns .btn { border-radius: 12px; }
+    .tab { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px 12px; display: flex; gap: 10px; align-items: center; }
+    .tab .grow { min-width: 0; flex: 1; } .tab b, .tab span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .tab span { color: var(--muted); font-size: 12px; }
+    .foot { display: flex; justify-content: space-between; font-size: 12px; } .foot a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
